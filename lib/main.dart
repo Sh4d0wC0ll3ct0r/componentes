@@ -7,14 +7,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'Componentes App',
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Componentes'),
-        ),
-        body: HomePageTemp(),
-      ),
+      home:  HomePageTemp(),
     );
   }
 }
